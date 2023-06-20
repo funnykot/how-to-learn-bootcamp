@@ -207,7 +207,7 @@ padding-bottom: 100px;
 
 .two-columns__paragraphs {
   margin: 0;
-  
+  font-size: 24px;
 }
 
 .digits {
@@ -289,7 +289,7 @@ padding-bottom: 100px;
   font-weight: 600;
   text-align: center;
   margin: 0;
-  padding-top: 100px;
+  padding-top: 0;
 }
 
 .feynman__subtitle {
@@ -435,6 +435,8 @@ padding-bottom: 100px;
 .resources {
   display: flex;
   flex-direction: column;
+  padding-top: 100px;
+  
 }
 
 .resources__logo-zone {
@@ -445,6 +447,7 @@ padding-bottom: 100px;
 .resources__logo {
   width:270px;
   height: 38px;
+  
 }
 
 .footer {
