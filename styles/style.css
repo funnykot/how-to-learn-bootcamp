@@ -470,7 +470,7 @@ padding-bottom: 100px;
  align-self: flex-start;
 }
 
-.footer__column_heading {
+.footer__column-heading {
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
@@ -478,7 +478,7 @@ padding-bottom: 100px;
   padding: 0;
 }
 
-.footer__column_links {
+.footer__column-links {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
