@@ -1,10 +1,11 @@
 @keyframes rotation {
-	from {
-		transform: rotate(-15deg);
-	}
-	to {
-		transform: rotate(345deg);
-	}
+  from {
+    transform: rotate(-15deg);
+  }
+
+  to {
+    transform: rotate(345deg);
+  }
 }
 
 .page {
@@ -42,14 +43,14 @@
 }
 
 .logo {
- height: 32px;
- width: 228px;
- background-size: contain;
- background-repeat: no-repeat;
+  height: 32px;
+  width: 228px;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .logo_place_header {
- position: absolute;
+  position: absolute;
   z-index: 2;
   top: 30px;
   left: 64px;
@@ -95,12 +96,12 @@
 }
 
 .two-columns {
-width: 80%;
-justify-content: space-between;
-display: flex;
-margin: 0 auto;
-padding-top: 160px;
-padding-bottom: 100px;
+  width: 80%;
+  justify-content: space-between;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 160px;
+  padding-bottom: 100px;
 }
 
 .two-columns__main-text {
@@ -135,16 +136,16 @@ padding-bottom: 100px;
 }
 
 .cards {
-  width:80%;
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
-  margin:0 auto;
-  
+  margin: 0 auto;
+
 }
 
 .cards__item {
   width: 240px;
-  margin-top:60px;
+  margin-top: 60px;
 }
 
 .cards__title {
@@ -173,9 +174,9 @@ padding-bottom: 100px;
 .video {
   display: flex;
   flex-direction: column;
-  margin-bottom:0;
+  margin-bottom: 0;
   padding-top: 100px;
- 
+
 }
 
 .video__iframes {
@@ -186,7 +187,7 @@ padding-bottom: 100px;
 }
 
 .video__iframe {
-  margin:0 10px;
+  margin: 0 10px;
 }
 
 .oakley {
@@ -219,7 +220,7 @@ padding-bottom: 100px;
 }
 
 .section-title {
- 
+
   margin: 0 auto;
   width: 60%;
   line-height: 1.15;
@@ -257,7 +258,7 @@ padding-bottom: 100px;
   font-size: 24px;
   font-weight: 600;
   margin: 0;
-  
+
 }
 
 .table__text {
@@ -333,7 +334,7 @@ padding-bottom: 100px;
   font-size: 60px;
   line-height: 1.15;
   font-weight: bold;
-  margin:0 auto 0 0;
+  margin: 0 auto 0 0;
 }
 
 .khan__quote {
@@ -349,7 +350,7 @@ padding-bottom: 100px;
   line-height: 1.15;
   font-weight: bold;
   margin: 36px auto 0 0;
-  
+
 }
 
 .khan__quote-author-subline {
@@ -422,8 +423,9 @@ padding-bottom: 100px;
   right: -210px;
   z-index: -1;
   animation: rotation 20s linear infinite;
-  
+
 }
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
@@ -436,7 +438,7 @@ padding-bottom: 100px;
   display: flex;
   flex-direction: column;
   padding-top: 100px;
-  
+
 }
 
 .resources__logo-zone {
@@ -445,29 +447,29 @@ padding-bottom: 100px;
 }
 
 .resources__logo {
-  width:270px;
+  width: 270px;
   height: 38px;
-  
+
 }
 
 .footer {
- min-height: 350px;
- background-color: #1f1f1f;
- padding-top: 60px;
- padding-bottom: 40px;
- position: relative;
- display: flex;
- justify-content: center;
- color: #ffffff;
- box-sizing: border-box;
+  min-height: 350px;
+  background-color: #1f1f1f;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  box-sizing: border-box;
 }
 
 .footer__author {
- line-height: 25px;
- font-size: 18px;
- font-weight: normal;
- margin: 18px 0;
- align-self: flex-start;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 18px 0;
+  align-self: flex-start;
 }
 
 .footer__column-heading {
@@ -488,10 +490,10 @@ padding-bottom: 100px;
 }
 
 .footer__column_content_copyright {
-display: flex;
-flex-direction: column;
-flex-basis: 711px;
-justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 711px;
+  justify-content: space-between;
 }
 
 .footer__column_content_info {
