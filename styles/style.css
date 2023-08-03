@@ -135,6 +135,11 @@
   font-weight: 600;
 }
 
+.techniques {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .cards {
   width: 80%;
   display: flex;
@@ -468,7 +473,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  margin: 18px 0;
+  margin: 18px 0 0 0;
   align-self: flex-start;
 }
 
