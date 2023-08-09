@@ -1,9 +1,7 @@
 .oakley__two-columns {
     margin: 0 auto;
-    padding: 160px 0 100px;
+    padding: 160px 0 0;
   }
  
-  .oakley__two-columns:last-child {
-    margin-bottom: 0;
-  }
+
  
